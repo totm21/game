@@ -16,6 +16,7 @@ int main()
     luaL_dofile(lua, "../bin/client/lua/debugPrint.lua");
 	lua_close(lua);
     
+    SetConsoleTitle("My Life");
     system("pause");
 
     return 0;
