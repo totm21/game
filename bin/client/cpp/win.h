@@ -2,35 +2,13 @@
 #define WIN_ME
 
 /*
-    Ö÷´°¿Ú»æÖÆ
-    @auther:    ³ÌÖÇ
+    ä¸»çª—å£ç»˜åˆ¶
+    @auther:    ç¨‹æ™º
     @date:      2022.8.10
-    @alter:     2022.8.12
+    @alter:     2022.8.10
 */
 
-//×öÓÎÏ·´°¿ÚµÄ²½Öè
-//1.Éè¼Æ´°¿ÚÀà
-//2.×¢²á´°¿ÚÀà
-//3.´´½¨´°¿Ú
-//4.ÏÔÊ¾´°¿Ú
-//5.¸üĞÂ´°¿Ú
-//6.ÏûÏ¢Ñ­»·
 
-#include<windows.h>
-#include<time.h>
-#include<iostream>
-
-//´´½¨Ò»¸ö¿ØÖÆÌ¨´°¿Ú ²¢½«Êä³ö°ó¶¨µ½¸Ã´°¿Ú
-bool create_console();
-
-//´°¿Ú´¦Àíº¯Êı
-LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg,WPARAM wParam,LPARAM lParam);
-//»æÍ¼
-void OnPaint(HDC hDC);
-//»æÖÆ·½¿é
-void DrawBlock(HDC hDC);
-//Éú³ÉÒ»¸öËæ»ú·½¿é
-void CreateTetris();
 
 
 

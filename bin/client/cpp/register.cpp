@@ -1,18 +1,18 @@
 #include"register.h"
 
-/*¶¨Òåº¯Êı±í*/   //±ê×¼¸ñÊ½
+/*å®šä¹‰å‡½æ•°è¡¨*/   //æ ‡å‡†æ ¼å¼
 
-/*ËùÒªµ÷ÓÃµÄº¯Êı¸ñÊ½*/ //±ê×¼¸ñÊ½
+/*æ‰€è¦è°ƒç”¨çš„å‡½æ•°æ ¼å¼*/ //æ ‡å‡†æ ¼å¼
 int C_Func_Child(lua_State* L)
 {
 	printf("it's standard\n");
 	return 0;
 }
 
-/*´´½¨Ò»¸öĞÂ¿â*/  //±ê×¼¸ñÊ½
+/*åˆ›å»ºä¸€ä¸ªæ–°åº“*/  //æ ‡å‡†æ ¼å¼
 int luaopen_C_Func_Name(lua_State* L) {
 	
-	/*´´½¨Ò»¸ö±ê×¼±í*/ 
+	/*åˆ›å»ºä¸€ä¸ªæ ‡å‡†è¡¨*/ 
 	luaL_Reg C_Fun_Table[] = {
 		{"C_Func_Child",C_Func_Child},
 		{NULL,NULL}
