@@ -1,18 +1,18 @@
 #ifndef REGISTER_ME
 #define REGISTER_ME
 /*
-    Cå‡½æ•°æ³¨å†Œç»™lua
-    @auther:    ç¨‹æ™º
+    Cº¯Êı×¢²á¸ølua
+    @auther:    ³ÌÖÇ
     @date:      2022.7.3
     @alter:     2022.7.3
 */
 
 #include <lua.hpp>
 
-/*æ‰€è¦è°ƒç”¨çš„å‡½æ•°æ ¼å¼*/ //æ ‡å‡†æ ¼å¼    è¿™ç©æ„å„¿æ˜¯å˜é‡???
+/*ËùÒªµ÷ÓÃµÄº¯Êı¸ñÊ½*/ //±ê×¼¸ñÊ½    ÕâÍæÒâ¶ùÊÇ±äÁ¿???
 extern int C_Func_Child(lua_State* L);
 
-/*åˆ›å»ºä¸€ä¸ªæ–°åº“*/  //æ ‡å‡†æ ¼å¼
+/*´´½¨Ò»¸öĞÂ¿â*/  //±ê×¼¸ñÊ½
 extern int luaopen_C_Func_Name(lua_State* L);
 
 
